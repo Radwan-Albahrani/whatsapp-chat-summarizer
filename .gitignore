@@ -1,0 +1,5 @@
+analytics.ipynb
+.env
+data
+__pycache__
+.DS_Store
