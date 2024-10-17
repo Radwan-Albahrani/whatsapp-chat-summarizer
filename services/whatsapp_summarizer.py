@@ -25,7 +25,6 @@ def message_summarizer(messages: list[WhatsappMessage]) -> str:
     for sender, anonymized_sender in sender_to_anonymized_sender_mapping.items():
         de_anonymized_response = de_anonymized_response.replace(anonymized_sender, sender)
 
-    print(de_anonymized_response)
     return de_anonymized_response
 
 
